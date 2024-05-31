@@ -22,7 +22,7 @@ body {
 
 .nav-items {
     display: flex;
-    gap: 20px; /* Add space between the list items */
+    gap: 20px; 
     padding: 0;
     margin: 0;
     list-style: none;
@@ -35,8 +35,131 @@ body {
     color: white;
 }
 
-.right {
+.right-img{
     display: flex;
     align-items: center;
     color: white;
+}
+
+#main-header{
+     display: flex;
+     justify-content: flex-end;
+     color: white;
+     position: relative;
+}
+#main-header .left{
+    position: absolute;
+    width: 90%;
+    top: 100px;
+    left: 10%;
+    height: 100%;
+    color: white; 
+}
+#main-header .left .bigtext {
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+}
+#main-header .left #overview{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 15px;
+}
+#main-header .left #overview .overview-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-header .left #overview .overview-items h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+.gradient-text {
+    color: #ff00f2;
+}
+#main-header .left #overview .overview-items p{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+    
+#main-header .right {
+    width: 70%;
+    height: 90vh;
+    z-index: -10;
+    mix-blend-mode: color-dodge;
+}
+#main-header .right img{
+    width: 100%;
+    height: 89vh;
+}
+.buttons {
+    display: flex;
+}
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    border: 1px solid #7d63f1;
+    background-color: transparent;
+    color: white;
+
+}
+.btn1 {
+    background: #2d1e6b;
+    background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);
+}
+
+.band {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 100px;
+    color: white;
+    transform: rotate(-3deg);
+    border: 1px solid #ffffff40;
+    font-size: 25px;
+    font-size: 900;
+    background: #ffffff40;
+    box-shadow: 0 80px 32px 0 rgb(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+
+}
+.choose-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.choose-section-title {
+    font-size: 40px;
+    font-weight: 900;
+}
+.section-description{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.choose-section .image-carousel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.image-carousel .center-img {
+    width: 600px;
+    height: 400px;
+
 }
