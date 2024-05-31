@@ -163,3 +163,42 @@ body {
     height: 400px;
 
 }
+.discover-section {
+    width: 70%;
+    margin: 200px ;
+}
+
+.discover-section .discover-card {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    color: white;
+    border: 2px #ffffff40;
+    border-radius: 7px;
+    background: #35276d;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 80px 32px 0 rgb(31, 38, 135, 0.37);
+}
+.discover-section .discover-card img {
+    margin-top: -70px;
+    width: 50%;
+    align-self: self-start;
+}
+.discover-card-details .big-text {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+.discover-card-details-btn {
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    transform: skewX(-20deg);
+}
+.demo-card-section {
+    width: 60%;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
