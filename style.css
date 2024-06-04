@@ -263,3 +263,50 @@ body {
     background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);
     color: #ffffff;
 }
+footer > img {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #ffffff;
+    padding: 100px 10% 0 10%;
+    position: relative;
+}
+.footer-container .brands {
+    display: flex;
+    gap: 50px;
+}
+.footer-container .brands > img {
+    width: 100px;
+    height: 30px;
+}
+
+.footer-container .about-and-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .about-and-links > div {
+    width: 22%;
+}
+.footer-container .about-and-links p {
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.footer-container .about-and-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 0;
+    list-style: none;
+}
+.footer-container h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
